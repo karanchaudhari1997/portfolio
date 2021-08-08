@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio karan</title>
+</head>
+<body>
+    <div class="container">
+        <section id="main">
+            <div class="profile">
+                <div class="main-top">
+                    <img class="profile-img" src="./images/profile.jpeg" alt="pofile image">
+                </div>
+                <div class="main-bottom">
+                    <h2 class="name">Hi, I'm Karan...</h2>
+                    <span class="objective">open to work</span>
+                </div>
+                <div class="btn">
+                <a class="button" href="mailto:chaudharikaran74@gmail.com">GET IN TOUCH</a>
+                <div class="links">
+                <a href="https://github.com/karanchaudhari1997" target="_blank"><img class="btns" src="./images/github.png" alt="github png"></a>
+                <a href="https://www.instagram.com/karan17___/" target="_blank"><img class="btns" src="./images/instagram.png" alt="instagram png"></a>
+               </div>
+            </div>
+           </div>
+        </section>
+        <section id="experience">
+                  
+            <h2 class="sec-heading">Skills</h2>
+            
+            <div class="skill">
+        
+                <div class="skill-first">
+                    <img src="./images/ux.png" alt="">
+                    <h2>Front-end</h2>
+                    
+                    <ul>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>JavaScript</li>
+                        <li>reactJS</li>
+                    </ul>
+
+                </div>
+                <div class="skill-second">
+                    <img src="./images/server.png" alt="">
+                    <h2>Back-end</h2>
+                    <ul>
+                        <li>Node JS</li>
+                        <li>Express JS</li>
+                        <li>MySQL</li>
+                        
+                    </ul>
+
+                </div>
+                <div class="skill-third">
+                    <img src="./images/programming.png" alt="">
+                    <h2>Familier</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>React JS</li>
+                        <li>JavaScript</li>
+                        <li>VS Code</li>
+                    </ul>
+      
+                </div>
+        
+            </div>
+        </section>
+        <section id="work">
+            <h2>Work</h2>
+            
+                <div class="project-one">
+                    <div class="description">
+                        <h3>Stess Detection System</h3>
+                        <p> using SVM algorithm.</p>
+                        <div class="btn">
+                            <a class="button" href="#">VIEW</a>
+                        </div>
+
+                    </div>
+                    <div class="project-screenshot">
+                        <img src="./images/project1.jpg" alt="">
+                    </div>
+                </div>
+                <!-- <div class="project-two">
+                    <div class="project-screenshot">
+                        <img src="./images/project1.jpg" alt="">
+                    </div>
+                    <div class="description">
+                        <h3>Stess Detection System</h3>
+                        <p> using SVM algorithm.</p>
+                        <div class="btn">
+                            <a class="button" href="#">VIEW</a>
+                        </div>
+
+                    </div>
+                    
+                </div> -->
+        </section>
+        <section id="about">
+            <h2>Wonna work with me ?</h2>
+            <p>I'm currently available</p>
+            <div class="buttons">           
+                 <div class="btn">
+                        <a class="button" href="mailto:chaudharikaran74@gmail.com">Start Now</a>
+                    </div>
+                    <div class="btn">
+                        <a class="button" href="./Documents/KaranResume.pdf" download="KaranResume">Download Resume</a>
+                    </div>
+            </div>
+        
+
+        </section>
+
+        <footer>
+            <p class="logo">KC</p>
+            <P id="copyrightYear"></P>
+        </footer>
+    </div>
+    <script>
+        const getYear=new Date().getFullYear();
+        console.log(getYear);
+        var text="Copyright © "+getYear+" | karan chaudhari |"
+        document.getElementById("copyrightYear").innerHTML=text;
+    </script>
+</body>
+</html>
