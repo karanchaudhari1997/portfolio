@@ -259,6 +259,33 @@ footer{
 
 
 /*......................................................MEDIA QUERIES....................................................... */
+@media only screen and (max-width: 770px)
+{
+    #experience{
+        padding: 6rem 0 0;
+    }
+    .skill{
+        padding: 5rem 5rem;
+    }
+
+    .project-screenshot img{
+        height: 150px;
+        width:200px;
+    }
+    
+    .description{
+        padding-left: 0;
+    }
+    
+    .project-two  .description{
+        padding-right: 0;
+    }
+}
+
+
+
+
+
 @media only screen and (max-width: 400px)
 {
     .main-bottom{
@@ -329,46 +356,5 @@ footer{
     }
     footer{
         margin: 50px;
-    }
-}
-@media only screen and (max-width: 770px)
-{
-    .main-bottom{
-        font-size: 3.2rem;
-    }
-    .main-bottom span::after
-{
-
-    content: "";
-    position: absolute;
-    left: 127px;
-    right: 125px;
-    bottom: 0;
-    top: 0;
-    border-left: 2px solid red;
-    background-color: white;
-    animation: typewriter 4s steps(12) forwards infinite;
-
-}
-    
-    
-    #experience{
-        padding: 6rem 0 0;
-    }
-    .skill{
-        padding: 5rem 5rem;
-    }
-
-    .project-screenshot img{
-        height: 150px;
-        width:200px;
-    }
-    
-    .description{
-        padding-left: 0;
-    }
-    
-    .project-two  .description{
-        padding-right: 0;
     }
 }
